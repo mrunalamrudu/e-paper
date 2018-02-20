@@ -18,7 +18,6 @@ div.container {
     width: 100%;
     border: 1px solid gray;
 }
-
 header, footer {
     padding: 1em;
     color: white;
@@ -26,14 +25,12 @@ header, footer {
     clear: left;
     text-align: center;
 }
-
 nav {
     float: left;
     max-width: 160px;
     margin: 0;
     padding: 1em;
 }
-
 nav ul {
     list-style-type: none;
     padding: 0;
@@ -48,10 +45,10 @@ article {
     padding: 1em;
     overflow: hidden;
 }
-
-
 </style>
 </head>
+<link rel="stylesheet" type="text/css" href="import.css">
+
     </head>
     <body>
         <header>E-Paper</header>
@@ -68,7 +65,8 @@ article {
             
         </nav>
         <article>
-            asx%%
+        <p style="text-align:center;"><img src="logo.png" alt="Logo"></p>
+           <marquee><ul><li> Convocation of Andhra University to be held next month</li><li>Department Of Journalism and Mass Communication</li> <li>Au Job Oppurtunities</li></ul></marquee>
         </article>
         <footer><a herf="about.jsp">About AU</a></footer>
     </body>
